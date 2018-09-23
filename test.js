@@ -19,7 +19,7 @@ it('should check if brackets sequence is correct 2', () => {
 });
 
 it('should check if brackets sequence is not correct 3', () => {
-  assert.equal(check('())(', config1), false);
+  assert.equal(check('())(', config1), false); //Важен порядок
 });
 
 it('should check if brackets sequence is correct 4', () => {
